@@ -5,8 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  //base: '/envios-ft-rastreo',
-  base: '/',
+  base: '/ms-rastrear',
+  //base: '/',
   plugins: [vue()],
   resolve: {
     alias: {
