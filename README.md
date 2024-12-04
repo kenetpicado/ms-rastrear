@@ -1,35 +1,49 @@
-# tracker
+# Proyecto MS-Rastreo
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción
 
-## Recommended IDE Setup
+MS-Rastreo es una aplicación diseñada para el seguimiento y monitoreo de paquetes en tiempo real. Proporciona una interfaz fácil de usar para rastrear envíos y obtener actualizaciones instantáneas sobre el estado de los paquetes.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Características
 
-## Customize configuration
+- Seguimiento en tiempo real de paquetes.
+- Notificaciones automáticas de actualizaciones de estado.
+- Interfaz de usuario intuitiva y fácil de usar.
+- Soporte para múltiples transportistas.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Instalación
 
-## Project Setup
+Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 
-```sh
-npm install
-```
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/ms-rastreo.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd ms-rastreo
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia la aplicación:
+   ```bash
+   npm start
+   ```
 
-### Compile and Hot-Reload for Development
+## Uso
 
-```sh
-npm run dev
-```
+1. Abre tu navegador y navega a `http://localhost:5173`.
+2. Ingresa el número de seguimiento de tu paquete.
+3. Visualiza el estado y la ubicación actual de tu paquete.
 
-### Compile and Minify for Production
+## Contribución
 
-```sh
-npm run build
-```
+Si deseas contribuir al proyecto, por favor sigue estos pasos:
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
