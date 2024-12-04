@@ -40,14 +40,14 @@ function showThis(tracking) {
     style="background: linear-gradient(20deg, #3a6cb2, #004995)"
   >
     <div class="w-full flex flex-col items-center justify-center mb-[2.5rem]">
-      <form @submit.prevent="search" class="text-center py-6 px-4 max-w-xl mt-8">
+      <form @submit.prevent="search" class="text-center py-6 px-4 max-w-xl">
         <div class="flex items-center justify-center mb-2">
           <a href="https://megashopni.com">
             <img src="/icon.png" alt="Logo" class="w-[5rem] h-auto" />
           </a>
         </div>
         <h5 class="text-2xl lg:text-4xl font-bold mb-8 tracking-wider">¡Rastrea tu paquete!</h5>
-        <div class="text-base font-light mb-10 leading-relaxed tracking-wide">
+        <div class="text-sm font-light mb-10 leading-relaxed tracking-wide">
           Ingresa tu número de rastreo y monitorea el progreso de tu paquete al instante 🕒
         </div>
         <SearchInput v-model="track" :loading="searching" />
