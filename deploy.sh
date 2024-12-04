@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+!/usr/bin/env sh
 
 set -e
 
@@ -13,10 +13,10 @@ npm run build
 
 cd dist
 
-#git init
+git init
 git add .
 git commit -m 'deploy'
 
-git push -f git@github.com:kenetpicado/envios-ft-rastreo master:gh-pages
+git push -f git@github.com:kenetpicado/ms-rastrear master:gh-pages
 
 cd -
