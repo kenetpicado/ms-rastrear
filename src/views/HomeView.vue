@@ -47,7 +47,7 @@ function showThis(tracking) {
           </a>
         </div>
         <h5 class="text-2xl lg:text-4xl font-bold mb-8 tracking-wider">¡Rastrea tu paquete!</h5>
-        <div class="text-sm font-light mb-10 leading-relaxed tracking-wide">
+        <div class="text-base font-light mb-10 leading-relaxed tracking-wide">
           Ingresa tu número de rastreo y monitorea el progreso de tu paquete al instante 🕒
         </div>
         <SearchInput v-model="track" :loading="searching" />
