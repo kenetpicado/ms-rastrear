@@ -7,7 +7,7 @@
       required
       :value="modelValue"
       @input="$emit('update:modelValue', $event.target.value)"
-      placeholder="Número de rastreo"
+      :placeholder="placeholder"
       :disabled="loading"
       class="px-4 w-full outline-none bg-white"
     />
@@ -34,6 +34,10 @@ defineProps({
   loading: {
     type: Boolean,
     default: false
+  },
+  placeholder: {
+    type: String,
+    default: 'Buscar'
   }
 })
 </script>

@@ -9,7 +9,7 @@ git push origin main
 npm run build
 
 # copiar CNAME
-#cp CNAME dist/
+cp CNAME dist/
 
 cd dist
 
